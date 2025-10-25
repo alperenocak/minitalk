@@ -10,8 +10,6 @@ Bu sayede düşük seviyeli süreç yönetimi, sinyal işleme ve bit manipülasy
 
 ## 🔄 İletişim Akışı
 
-<img src="https://github.com/user-attachments/assets/minitalk-flow.png" width="700" alt="minitalk communication flow">
-
 > Server bir PID (Process ID) ile başlatılır, client bu PID üzerinden mesajı bit-bit gönderir.  
 > Her bit bir sinyal (SIGUSR1 veya SIGUSR2) olarak iletilir.
 
